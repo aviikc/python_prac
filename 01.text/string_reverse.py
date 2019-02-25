@@ -1,12 +1,12 @@
 # Reverse a String
 
 def reverse( my_string):
-'''
-Function reverses a given string
-Objective: To reverse a string
-Parameters: my_string String
-Returns: String
-'''
+    '''
+    Function reverses a given string
+    Objective: To reverse a string
+    Parameters: my_string String
+    Returns: String
+    '''
     return my_string[::-1]
 
 def main():

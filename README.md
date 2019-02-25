@@ -1,30 +1,35 @@
-Numbers
-Text
-Reverse a String – Enter a string and the program will reverse it and print it out.
-Pig Latin – Pig Latin is a game of alterations played on the English language game. To create the Pig Latin form of an English word the initial consonant sound is transposed to the end of the word and an ay is affixed (Ex.: "banana" would yield anana-bay). Read Wikipedia for more information on rules.
-Count Vowels – Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found.
-Check if Palindrome – Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”
-Count Words in a String – Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.
-Text Editor – Notepad style application that can open, edit, and save text documents. Add syntax highlighting and other features.
-RSS Feed Creator – A program which can read in text from other sources and put it in RSS or Atom news format for syndication.
-Post it Notes Program – A program where you can add text reminders and post them. You can have the program also add popup reminders.
-Quote Tracker (market symbols etc) – A program which can go out and check the current value of stocks for a list of symbols entered by the user. The user can set how often the stocks are checked and the program can show green up and red down arrows to show which direction the stock value has moved.
-Guestbook / Journal – A simple application that allows people to add comments or write journal entries. It can allow comments or not and timestamps for all entries. Could also be made into a shout box.
-News Ticker and Game Scores – A program which sits on your desktop and aggregates news and game scores from various sources on the net. It then scrolls them across the screen on regular intervals.
-Fortune Teller (Horoscope) – A program that checks your horoscope on various astrology sites and puts them together for you each day.
-Vigenere / Vernam / Ceasar Ciphers – Functions for encrypting and decrypting data messages. Then send them to a friend.
-Random Gift Suggestions – Enter various gifts for certain people when you think of them. When its time to give them a gift (xmas, birthday, anniversary) it will randomly pick one and perhaps places you can get it.
-Text to HTML Generator – Converts text files into web HTML files and stylizes them. Great for making online documentation of standard text documentation.
-CD Key Generator – Generates a unique key for your applications to use based on some arbitrary algorithm that you can specify. Great for software developers looking to make shareware that can be activated.
-Regex Query Tool – A tool that allows the user to enter a text string and then in a separate control enter a regex pattern. It will run the regular expression against the source text and return any matches or flag errors in the regular expression.
-Networking
+# Numbers
+
+
+# Text
+
+* Reverse a String – Enter a string and the program will reverse it and print it out.
+* Pig Latin – Pig Latin is a game of alterations played on the English language game. To create the Pig Latin form of an English word the initial consonant sound is transposed to the end of the word and an ay is affixed (Ex.: "banana" would yield anana-bay). Read Wikipedia for more information on rules.
+*  Count Vowels – Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found.
+* Check if Palindrome – Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”
+* Count Words in a String – Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.
+* Text Editor – Notepad style application that can open, edit, and save text documents. Add syntax highlighting and other features.
+* RSS Feed Creator – A program which can read in text from other sources and put it in RSS or Atom news format for syndication.
+* Post it Notes Program – A program where you can add text reminders and post them. You can have the program also add popup reminders.
+* Quote Tracker (market symbols etc) – A program which can go out and check the current value of stocks for a list of symbols entered by the user. The user can set how often the stocks are checked and the program can show green up and red down arrows to show which direction the stock value has moved.
+* Guestbook / Journal – A simple application that allows people to add comments or write journal entries. It can allow comments or not and timestamps for all entries. Could also be made into a shout box.
+* News Ticker and Game Scores – A program which sits on your desktop and aggregates news and game scores from various sources on the net. It then scrolls them across the screen on regular intervals.
+* Fortune Teller (Horoscope) – A program that checks your horoscope on various astrology sites and puts them together for you each day.
+* Vigenere / Vernam / Ceasar Ciphers – Functions for encrypting and decrypting data messages. Then send them to a friend.
+* Random Gift Suggestions – Enter various gifts for certain people when you think of them. When its time to give them a gift (xmas, birthday, anniversary) it will randomly pick one and perhaps places you can get it.
+* Text to HTML Generator – Converts text files into web HTML files and stylizes them. Great for making online documentation of standard text documentation.
+* CD Key Generator – Generates a unique key for your applications to use based on some arbitrary algorithm that you can specify. Great for software developers looking to make shareware that can be activated.
+* Regex Query Tool – A tool that allows the user to enter a text string and then in a separate control enter a regex pattern. It will run the regular expression against the source text and return any matches or flag errors in the regular expression.
+
+# Networking
+
 FTP Program – A file transfer program which can transfer files back and forth from a remote web sever.
 
 Get Atomic Time from Internet Clock – This program will get the true atomic time from an atomic time clock on the Internet. There are various clocks across the world. Do a search for a list of them.
 
 Chat Application (IRC or MSN Style) – Create a chat application that can create simple chat rooms like on Internet Relay Chat (IRC) or a more direct chatting style like MSN. For added complexity, create your own protocol to facilitate this chatting.
 
-Fetch Current Weather – Get the current weather for a given zip/postal code.
+Fetch Current Weather – Get the current weather for a given zip/postal code. 
 
 P2P File Sharing App – Create a program like LimeWire, FrostWire, Bearshare, or a torrent style application.
 
@@ -48,7 +53,8 @@ Small Web Server – A simple web server that can serve HTML files that contain 
 
 Web Bot – An automated program which carries out tasks on the web including checking websites, page scraping, and summarization of data or web posting.
 
-Classes
+# Classes
+
 Product Inventory Project – Create an application which manages an inventory of products. Create a product class which has a price, id, and quantity on hand. Then create an inventory class which keeps track of various products and can sum up the inventory value.
 
 Movie Store – Manage video rentals and controls when videos are checked out, due to return, overdue fees and for added complexity create a summary of those accounts which are overdue for contact.
@@ -61,7 +67,8 @@ Bank Account Manager - Create a class called “Account” which will be an abst
 
 Library Catalog – Create a book class with a title, page count, ISBN and whether or not it is checked out or not. Manage a collection of various books and allow the user to check out books or return books. For added complexity generate a report of those books overdue and any fees. Also allow users to put books on reserve.
 
-Threading
+# Threading
+
 Create A Progress Bar for Downloads – Create a progress bar for applications that can keep track of a download in progress. The progress bar will be on a separate thread and will communicate with the main thread using delegates.
 
 Download Manager – Allow your program to download various files and each one is downloading in the background on a separate thread. The main thread will keep track of the other thread’s progress and notify the user when downloads are completed.
@@ -70,7 +77,8 @@ Chat Application (remoting style) – Create a chat application which allows you
 
 Bulk Thumbnail Creator – Picture processing can take a bit of time for some transformations. Especially if the image is large. Create an image program which can take hundreds of images and converts them to a specified size in the background thread while you do other things. For added complexity, have one thread handling re-sizing, have another bulk renaming of thumbnails etc.
 
-Web
+# Web
+
 WYSIWG (What you see is what you get) Editor – Create an editor online which allows people to move around elements, create tables, write text, set colors etc for web pages without having to know HTML. Think Dreamweaver or FrontPage but for online sites. If you need an example check out the DIC page used to create a post.
 
 Web Browser with Tabs – Create a small web browser that allows you to navigate the web and contains tabs which can be used to navigate to multiple web pages at once. For simplicity don’t worry about executing Javascript or other client side code.
@@ -79,7 +87,7 @@ Page Scraper – Create an application which connects to a site and pulls out al
 
 File Downloader – An application which can download various objects on a page including video streams or all files on a page. Great for pages with a lot of download links.
 
-Telnet Application – Create an application which can telnet into servers across the internet and run basic commands.
+Telnet Application – Create an application which can telnet into servers across the internet and run basic commands. 
 
 Online White Board – Create an application which allows you and friends to collaborate on a white board online. Draw pictures, write notes and use various colors to flesh out ideas for projects. For added complexity try building in picture tubes.
 
@@ -103,7 +111,8 @@ Template Maker – Make a site or application which allows the user to enter in 
 
 CAPTCHA Maker – Ever see those images with letters a numbers when you signup for a service and then asks you to enter what you see? It keeps web bots from automatically signing up and spamming. Try creating one yourself for online forms. If you use PHP, take a look at the image functions of GD.
 
-Files
+# Files
+
 Quiz Maker – Make an application which takes various questions form a file, picked randomly, and puts together a quiz for students. Each quiz can be different and then reads a key to grade the quizzes.
 
 Quick Launcher – A utility program that allows the user to assign various programs to icons on a toolbar. Then by clicking the buttons they can quickly launch the programs with parameters etc. Much like Windows quick launch.
@@ -136,7 +145,8 @@ Code Snippet Manager – Another utility program that allows coders to put in fu
 
 Versioning Manager – Create your own versioning system for code files. Users are forced to check out items and lock items during reading and writing so that a group of programmers are not accidentally overwriting code files on one another.
 
-Databases
+# Databases
+
 SQL Query Analyzer – A utility application which a user can enter a query and have it run against a local database and look for ways to make it more efficient.
 
 Remote SQL Tool – A utility that can execute queries on remote servers from your local computer across the Internet. It should take in a remote host, user name and password, run the query and return the results.
@@ -155,7 +165,7 @@ Address Book – Keep track of various contacts, their numbers, emails and littl
 
 TV Show Tracker – Got a favorite show you don’t want to miss? Don’t have a PVR or want to be able to find the show to then PVR it later? Make an application which can search various online TV Guide sites, locate the shows/times/channels and add them to a database application. The database/website then can send you email reminders that a show is about to start and which channel it will be on.
 
-Travel Planner System – Make a system that allows users to put together their own little travel itinerary and keep track of the airline / hotel arrangements, points of interest, budget and schedule.
+Travel Planner System – Make a system that allows users to put together their own little travel itinerary and keep track of the airline / hotel arrangements, points of interest, budget and schedule. 
 
 Entity Relationship Diagram (ERD) Creator – A program that allows the user to put together ERD diagram and save it or have it generate some basic SQL syntax to give them a jump start.
 
@@ -163,7 +173,8 @@ Database Translation (MySQL <-> SQL Server) – A simple utility that reads in f
 
 Web Board (Forum) – Create a forum for you and your buddies to post, administer and share thoughts and ideas.
 
-Graphics and Multimedia
+# Graphics and Multimedia
+
 Slide Show – Make an application that shows various pictures in a slide show format. For extra complexity try adding various effects like fade in/out, star wipe and window blinds transitions.
 
 Mind Mapper – Allow the user to put down ideas and quickly brainstorm how they are related into a mind map. The goal here is speed so let the user quickly write in an idea and drag it around in a visual map to show relationships.
@@ -174,7 +185,7 @@ Stream Video from Online – Try to create your own online streaming video playe
 
 Mp3 Player (and Other Formats) – A simple program for playing your favorite music files. For extra complexity see if you can add in playlists and an equalizer.
 
-Bulk Picture Manipulator – This program will take in a directory of pictures and apply a certain effect to them whether it be reducing color count, changing its format, or alter file attributes. For something extra try to see if you can also create a system to tag them.
+Bulk Picture Manipulator – This program will take in a directory of pictures and apply a certain effect to them whether it be reducing color count, changing its format, or alter file attributes. For something extra try to see if you can also create a system to tag them. 
 
 CD Burning App – Create a utility that simply burns data to a CD.
 
@@ -198,7 +209,8 @@ Watermarking Application – Have some pictures you want copyright protected? Ad
 
 Turtle Graphics – This is a common project where you create a floor of 20 x 20 squares. Using various commands you tell a turtle to draw a line on the floor. You have move forward, left or right, lift or drop pen etc. For added complexity, allow the program to read in the list of commands from a file. Do a search online for “Turtle Graphics” for more information.
 
-Games
+# Games
+
 Battleship – Create two game boards and let each player place a number of war ships. Each player can’t see the other person’s board. They then take turns firing at one another by guessing one of the board squares. If the square they guess contains part of a ship, it is a hit. Otherwise it is a miss. They sink a ship when all squares containing that particular ship have been uncovered. The player wins when all their opponents’ ships have been sunk.
 
 Chess and Checkers – Simply put a game of chess or checkers. Try to make it playable online and if you can use a graphical user interface that can also undo or redo a step as well as keep a history of moves for replay.
